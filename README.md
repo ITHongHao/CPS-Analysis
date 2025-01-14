@@ -1,5 +1,3 @@
-# team037-A
-
 # Installation
 Before installation, I would recommend setting up and launching a python virtual environemnt to ensure no package version conflicts occur. This can be as easy as follows:
 ```
