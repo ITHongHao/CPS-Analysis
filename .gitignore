@@ -1,0 +1,6 @@
+py_env/
+.env
+CSP-Analysis/.env
+**/__pycache__/
+*.pyc
+

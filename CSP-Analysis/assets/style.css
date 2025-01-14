@@ -1,0 +1,12 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+.dash-tabs {
+    margin-top: 20px;
+}
