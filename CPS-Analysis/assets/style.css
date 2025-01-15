@@ -1,0 +1,32 @@
+/* Tab container */
+.mantine-TabsList-root {
+    border-bottom: 2px solid teal !important;  /* Adds a separating line under the tabs */
+    display: flex;
+    justify-content: center;
+}
+
+/* Individual tabs */
+.mantine-TabsTab-root {
+    border-right: 2px solid teal !important;  /* Adds a border between tabs */
+    padding: 10px 20px;  /* Adjust padding as needed */
+    background-color: #fff;  /* Optional: Background color */
+}
+
+/* Remove the right border for the last tab */
+.mantine-TabsTab-root:last-child {
+    border-right: none;
+}
+
+/* Hover effect */
+.mantine-TabsTab-root:hover {
+    background-color: rgba(0, 128, 128, 0.1);  /* Light background on hover */
+    cursor: pointer;  /* Make it clear it's clickable */
+}
+
+/* Active tab style */
+.mantine-TabsTab-root[aria-selected="true"] {
+    background-color: teal;  /* Color for the active tab */
+    color: white;
+}
+
+
